@@ -4,5 +4,4 @@
         const duplicateWords = allWords.filter(singleWord => singleWord === word.toLowerCase());
         return duplicateWords.length;
     }
-
 }
